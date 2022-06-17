@@ -76,6 +76,7 @@ li>a>img,
     padding: 1.4rem 3rem;
     align-items: end;
     justify-items: end;
+    font-weight: bold;
 }
 
 .header>div {
@@ -123,6 +124,10 @@ li>a>img,
     background-color: #FFF200;
     width: 6rem;
     height: 6rem;
+}
+
+.user-nametag {
+    font-size: 2rem;
 }
 
 .main-content {
