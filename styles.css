@@ -60,6 +60,24 @@ li>a>img {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     font-size: 1.3rem;
+    padding: 1.4rem 3rem;
+    align-items: end;
+    justify-items: end;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+}
+
+.search,
+.account-head {
+    align-self: start;
+}
+
+.search,
+.welcome {
+    justify-self: start;
 }
 
 .icon-circle {
