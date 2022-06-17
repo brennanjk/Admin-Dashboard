@@ -59,6 +59,23 @@ li>a>img {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    font-size: 1.3rem;
+}
+
+.icon-circle {
+    border-radius: 50%;
+}
+
+.account-head>.icon-circle {
+    background-color: #FFF200;
+    width: 4rem;
+    height: 4rem;
+}
+
+.welcome>.icon-circle {
+    background-color: #FFF200;
+    width: 6rem;
+    height: 6rem;
 }
 
 .main-content {
