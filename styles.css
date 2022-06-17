@@ -47,9 +47,22 @@ body {
 }
 /*invert images to be white rather than black*/
 .dashboard>img,
-li>a>img {
+li>a>img,
+#search-button,
+#help {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+
+#search-button,
+#help {
+    width: 2rem;
+    height: auto;
+}
+
+#search-button:hover,
+#help:hover {
+    cursor: pointer;
 }
 
 .header {
@@ -68,6 +81,7 @@ li>a>img {
 .header>div {
     display: flex;
     align-items: center;
+    gap: 25px;
 }
 
 .search,
@@ -78,6 +92,13 @@ li>a>img {
 .search,
 .welcome {
     justify-self: start;
+}
+
+#search-bar {
+    width: calc(50vw);
+    height: 1.75rem;
+    border-radius: 10px;
+    background-color: #d8d6d6;
 }
 
 .icon-circle {
