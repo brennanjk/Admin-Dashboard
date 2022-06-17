@@ -26,7 +26,22 @@ body {
     font-size: 1.5rem;
 }
 
-.dashboard>img {
+.list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list>li {
+    display: flex;
+    gap: 10px;
+}
+
+/*invert images to be white rather than black*/
+.dashboard>img,
+li>img {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -41,3 +56,4 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / -1;
 }
+
