@@ -82,6 +82,14 @@ li>a>img {
 
 .icon-circle {
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.user-icon {
+    width: 80%;
+    height: auto;
 }
 
 .account-head>.icon-circle {
