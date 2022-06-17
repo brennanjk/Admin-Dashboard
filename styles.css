@@ -34,14 +34,20 @@ body {
     font-weight: bold;
 }
 
-.list>li {
+.list>li>a {
     display: flex;
     gap: 10px;
+    line-height: .75em;
+    text-decoration: none;
+    color: white;
 }
 
+.lower-list {
+    margin-top: 2em;
+}
 /*invert images to be white rather than black*/
 .dashboard>img,
-li>img {
+li>a>img {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
