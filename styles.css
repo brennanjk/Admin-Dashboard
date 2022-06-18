@@ -99,7 +99,7 @@ li>a>img,
 }
 
 #search-bar {
-    width: calc(50vw);
+    width: 40vw;
     height: 1.75rem;
     border-radius: 10px;
     background-color: #d8d6d6;
