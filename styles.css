@@ -74,8 +74,6 @@ li>a>img,
     grid-template-rows: 1fr 1fr;
     font-size: 1.3rem;
     padding: 1.4rem 3rem;
-    align-items: end;
-    justify-items: end;
     font-weight: bold;
 }
 
@@ -90,9 +88,14 @@ li>a>img,
     align-self: start;
 }
 
-.search,
-.welcome {
-    justify-self: start;
+.account-head,
+.menu-head {
+    justify-content: center;
+}
+
+.account-head {
+    display: flex;
+    padding-left: 3rem;
 }
 
 #search-bar {
@@ -129,6 +132,8 @@ li>a>img,
 .user-nametag {
     font-size: 2rem;
 }
+
+
 
 .main-content {
     grid-column: 2 / 3;
