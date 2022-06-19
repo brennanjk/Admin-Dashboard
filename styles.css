@@ -123,6 +123,10 @@ li>a>img,
     height: 4rem;
 }
 
+.account-head>.icon-circle {
+    margin: 0 15px;
+}
+
 .welcome>.icon-circle {
     background-color: #FFF200;
     width: 6rem;
