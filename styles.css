@@ -168,6 +168,7 @@ li>a>img,
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .section-title {
@@ -190,6 +191,18 @@ li>a>img,
 .announcements {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+}
+
+.announcements>div {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 3rem;
+    margin-top: 1.5rem;
+}
+
+.announcement {
+    font-weight: 500;
+    font-size: .9rem;
 }
 
 .trending {
