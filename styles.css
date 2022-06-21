@@ -181,6 +181,8 @@ li>a>img,
     background-color: #f0f0f0;
     border-radius: 15px;
     height: 300px;
+    padding: .5rem 1rem 0 1.5rem;
+    border-left: solid #0060a8 1rem;
 }
 
 .announcements {
