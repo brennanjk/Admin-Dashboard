@@ -185,6 +185,8 @@ li>a>img,
     border-left: solid #0060a8 1rem;
 }
 
+
+
 .announcements {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
