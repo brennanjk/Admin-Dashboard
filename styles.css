@@ -180,6 +180,7 @@ li>a>img,
 .project {
     font-weight: 500;
     font-size: 1rem;
+    color: #303030e5;
     background-color: #f0f0f0;
     border-radius: 15px;
     height: 300px;
@@ -188,6 +189,10 @@ li>a>img,
     display: grid;
 }
 
+.project-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 .project-icons {
     place-self: end;
 }
