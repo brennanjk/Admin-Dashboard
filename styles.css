@@ -209,3 +209,28 @@ li>a>img,
 .trending {
     grid-column: 2 / 3;
 }
+
+.trend-item {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.trend-nametag {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.trend-title {
+    color: #303030c9;
+}
+
+.trend-item>.icon-circle {
+    width: 4rem;
+    height: 4rem;
+}
+
+#joker {
+    background-color: #9400a8;
+}
