@@ -117,7 +117,8 @@ li>a>img,
     height: auto;
 }
 
-.account-head>.icon-circle {
+.account-head>.icon-circle,
+.trend-item>.icon-circle {
     background-color: #FFF200;
     width: 4rem;
     height: 4rem;
@@ -233,4 +234,12 @@ li>a>img,
 
 #joker {
     background-color: #9400a8;
+}
+
+#catwoman {
+    background-color: #a80000de
+}
+
+#penguin {
+    background-color: #2e54be;
 }
