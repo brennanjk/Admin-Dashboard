@@ -166,7 +166,7 @@ li>a>img,
 
 .projects>div {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(auto-fit, minmax(300px, 1fr));
+    grid-template: repeat(3, 1fr) / repeat(auto-fit, minmax(400px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
