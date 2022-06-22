@@ -211,6 +211,12 @@ li>a>img,
     grid-column: 2 / 3;
 }
 
+.trending>div {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr) / 1fr;
+    gap: 2rem;
+}
+
 .trend-item {
     display: flex;
     align-items: center;
